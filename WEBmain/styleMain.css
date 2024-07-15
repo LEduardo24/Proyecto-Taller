@@ -1,0 +1,152 @@
+
+/*
+El formato de los elementos en este
+archivo seran visibles de forma en que se
+desea siempre y cuando se tenga un ancho
+por pantalla de 900px
+Si la pantalla llega a ser menor a 900px se
+aplicara un formato responsive
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 800vh;
+    border: black solid 2px;
+    flex-direction: column;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.containerMainBody{
+    border: 1px solid red;
+    height: 100%;
+    width: 100%;
+}
+
+.headerAparted{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 45px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 90;
+    position: fixed;
+    top: 0;
+}
+
+.logoSpace{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38%;
+    height: 100%;
+}
+
+.logoSpace h1{
+    font-size: 31px;
+    color: white;
+    padding: 0px 2%;
+}
+
+.logoSpace img{
+    height: 97%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.optionUser{
+    width: 30%;
+    height: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+
+.optionUser p{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.optionUser p:hover{
+    text-decoration: underline 1px;
+}
+
+/*
+Primer apartado para el usuario
+*/
+
+.spaceForOptionsVisit{
+    border: blue solid 2px;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 85;
+}
+
+.containerSpaceVisit{
+    height: 95%;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 15px;
+    background-image: url(/WEBmain/imagenesMain/imgLop/Entrada\ casa);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.774);
+}
+
+.textApartedPresentationDoor{
+    margin-left: 5%;
+    height: 200px;
+    width: 60%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    box-shadow: 2px 1px 5px black;
+}
+
+.textMainDoor{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textMainDoor h2{
+    font-size: 42px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.textSecondDoor{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textSecondDoor p{
+    font-size: 20px;
+    color: black;
+}
