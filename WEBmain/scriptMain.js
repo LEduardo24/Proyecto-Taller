@@ -22,5 +22,7 @@ $(document).ready(function(){
     });
     $(botonNegro).click(function(event){
         $(sliderMela).css("transform", "translate(-40%)");
-    })
+    });
+
+    
 });
