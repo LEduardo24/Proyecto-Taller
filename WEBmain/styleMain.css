@@ -200,6 +200,7 @@ espacio interactivo
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.767);
+    background-color: #eeeeee;
 }
 
 .imgSpaceInterativeMelaUSer{
@@ -243,3 +244,107 @@ espacio interactivo
     transition: .1s;
 }
 
+/*
+Tercer apartado en la pagina web
+*/
+
+.apartedInteractiveThree{
+    border: black solid 2px;
+    height: 10%;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerMainApartedThree{
+    height: 90%;
+    width: 90%;
+    border-radius: 15px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 1px 2px 5px black;
+    background-color: #eeeeee;
+}
+
+.imgSpaceApartedThree{
+    height: 100%;
+    width: 30%;
+}
+
+.mainContThree{
+    height: 100%;
+    width: 100%;
+}
+
+.mainContThree img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.textContainerMainThree{
+    width: 70%;
+    height: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTextApartedThree{
+    height: 400px;
+    width: 70%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textMainThree{
+    height: 70%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textPresentationSimple{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+}
+
+.textPresentationColors{
+    height: 30%;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textPresentationColors p{
+    background-image: url(/WEBmain/imagenesMain/imgLop/pisoLaminado.jpg);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.textPresentationDinamic{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+
+.textSecondApartedThree{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
